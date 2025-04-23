@@ -12,6 +12,7 @@ for i in range (start,end+1):
     else:
         print(f'Number {i} : Odd')
         odd = odd + 1
+    
 
 print(f"Number of evens are :{even}" )
 print(f"Number of odds are :{odd}" )
