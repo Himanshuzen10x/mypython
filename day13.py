@@ -1,5 +1,5 @@
 import os
-
+# math, os, random ye sab built-in modules hai.
 print("Current Directory:", os.getcwd())
 # print(os.listdir())
 
