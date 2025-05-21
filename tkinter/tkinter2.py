@@ -35,7 +35,7 @@ check_button = Checkbutton(window,
                            compound='left')
 
 # Keep reference to the image
-check_button.image = python_photo
+# check_button.image = python_photo
 
 check_button.pack()
 window.mainloop()
