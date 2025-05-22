@@ -21,17 +21,17 @@ sandwich_img = ImageTk.PhotoImage(original_image3)
 # Store references to avoid garbage collection
 images = [burger_img, noodles_img, sandwich_img]
 
-var = IntVar()
+var = StringVar()
 
-r1 = Radiobutton(window, text="Burger", variable=var, value=1,
+r1 = Radiobutton(window, text="Burger", variable=var, value="Burger",
                  command=show_delection, image=burger_img, compound="left")
 r1.pack()
 
-r2 = Radiobutton(window, text="Noodles", variable=var, value=2,
+r2 = Radiobutton(window, text="Noodles", variable=var, value="Noodles",
                  command=show_delection, image=noodles_img, compound="left")
 r2.pack()
 
-r3 = Radiobutton(window, text="Sandwich", variable=var, value=3,
+r3 = Radiobutton(window, text="Sandwich", variable=var, value="Sandwich",
                  command=show_delection, image=sandwich_img, compound="left")
 r3.pack()
 
